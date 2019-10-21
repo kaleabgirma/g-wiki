@@ -5,8 +5,10 @@
 > Gebeya Official Links
 {.is-info}
 - [Official Website](https://gebeya.com)
+- [Git Repository](https://git.gebeya.com)
+- [Moodle](https://moodle.gebeya.com)
+
 
 > Training Sites
 {.is-info}
-- [Git Repository](https://git.gebeya.com)
-- [Moodle](https://moodle.gebeya.com)
+[Keycloak Deployment and HA Configuration](/keycloak-ha-configuration)
