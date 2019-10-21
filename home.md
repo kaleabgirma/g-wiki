@@ -1,6 +1,6 @@
-<!-- TITLE: Gebeya KB Home -->
+<!-- TITLE: Welcome to Gebeya KB -->
 <!-- SUBTITLE: This is POC Gebeya KB website -->
 
-# Welcome to Gebeya KB!
-> Importnat Links
+# Important Links!
+> Gebeya Official Links
 {.is-info}
