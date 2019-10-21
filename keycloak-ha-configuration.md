@@ -79,3 +79,12 @@ Then insert the following code in the file.
  </dependencies> 
 </module> 
 ```
+
+Now go to the following directory and change the **standalone-ha.xml** configuration file 
+
+*cd /data/keycloak-6.0.1/standalone/configuration/ *
+
+
+```sh
+nano standalone-ha.xml 
+```
