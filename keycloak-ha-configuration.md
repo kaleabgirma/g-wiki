@@ -1,7 +1,7 @@
 <!-- TITLE: Configuring Keycloak Ha -->
 <!-- SUBTITLE: This documentation shows step by step Guid to configure Keycloak HA configuration -->
 
-# Requirements before installation 
+## Requirements before installation 
 The following tools needs to be configured before installing and configuring keycloak 
 - Java 8 JDK 
 - Mysql server 5.6 or later
