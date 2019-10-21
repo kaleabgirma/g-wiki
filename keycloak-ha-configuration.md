@@ -88,3 +88,11 @@ Now go to the following directory and change the **standalone-ha.xml** configura
 ```sh
 nano standalone-ha.xml 
 ```
+
+ctr+w and then type the following text to search without the external quote "<driver name="h2" after locating the following string"
+
+```xml
+<driver name="h2" module="com.h2database.h2"> 
+                        <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class> 
+ </driver>
+```
