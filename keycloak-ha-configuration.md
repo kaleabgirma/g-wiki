@@ -32,11 +32,6 @@ Create keycloak user and grant privileges
 GRANT ALL PRIVILEGES ON *.* TO ‘keycloak’@’%’ IDENTIFIED BY ‘PASSWORD’;
 ```
 
-
-```sql
-GRANT ALL PRIVILEGES ON *.* TO ‘keycloak’@’%’ IDENTIFIED BY ‘PASSWORD’;
-```
-
 Exit from the database server and reconnect to it with the new keycloak user and provide the password 
 
 ```batchfile
