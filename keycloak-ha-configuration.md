@@ -39,3 +39,8 @@ mysql -u keycloak -p
 ```
 
 If you successfully logged in then you have completed step 1. 
+
+## Step-2 Install the dependencies and download the keycloak project 
+- Download and install Java 8 JDK to you server 
+- Download and unzip the keycloak project from the official website to your server preferd directory in this configuration we preferred to put the project in /data/ directory
+- Download and unzip the mysql connector from the mysql official site in your proffered directory
