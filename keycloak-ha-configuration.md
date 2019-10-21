@@ -198,3 +198,10 @@ catch
 end-try 
 stop-embedded-server
 ```
+Then run the following command in the terminal from the **/data/keycloak-6.0.1/bin** directory
+
+```sh
+./jboss-cli --file= JDBC_PING.cli 
+```
+
+If you have any errors please try to fix it until you get *command executed successfully* message 
