@@ -65,7 +65,7 @@ Now create new file called **module.xml** and paste the following code in it
 nano module.xml 
 ```
 
-
+Then insert the following code in the file.
 
 ```xml
 <?xml version="1.0" ?> 
