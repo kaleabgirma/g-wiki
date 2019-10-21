@@ -44,3 +44,14 @@ If you successfully logged in then you have completed step 1.
 - Download and install Java 8 JDK to you server 
 - Download and unzip the keycloak project from the official website to your server preferd directory in this configuration we preferred to put the project in /data/ directory
 - Download and unzip the mysql connector from the mysql official site in your proffered directory
+
+## Step-3 configure keycloak mysql connector 
+First our keycloak project directory structure looks like 
+**/data/keycloak-6.0.1/** 
+
+Create the following directory in the directory */data/keycloak-6.0.1/modules* by running the following command 
+```batchfile
+mkdir com 
+mkdir com/mysql 
+mkdir com/mysql/main 
+```
