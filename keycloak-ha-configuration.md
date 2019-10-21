@@ -148,3 +148,5 @@ Next step is to change the binding address to the current public IP address that
 In the same configuration file standalone-ha.xml find the line **<interface name="public">** 
 Then change the IP address from 127.0.0.1 to the public IP that can be seen by remote servers and also the **<interface name="management">** too. 
 Do this step in the second server too, give its own IP address to be reached by the other servers. 
+
+## Step-4 Create JDBC-Ping configuration
