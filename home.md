@@ -1,4 +1,4 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: Gebeya KB Home -->
+<!-- SUBTITLE: THis is POC Gebeya KB website -->
 
 # Welcome to Gebeya KB!
