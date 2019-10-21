@@ -11,4 +11,4 @@
 
 > Training Sites
 {.is-info}
-[Keycloak Deployment and HA Configuration](/keycloak-ha-configuration)
+- [Keycloak Deployment and HA Configuration](/keycloak-ha-configuration)
