@@ -21,13 +21,13 @@ mysql -u root -p
 
 Create keycloak database 
 
-```mysql
+```sql
 Create database keycloak;
 ```
 
 Create keycloak user and grant privileges  
 “Note: change the password with the correct password you want” 
 
-```mysql
+```sql
 GRANT ALL PRIVILEGES ON *.* TO ‘keycloak’@’%’ IDENTIFIED BY ‘PASSWORD’;
 ```
