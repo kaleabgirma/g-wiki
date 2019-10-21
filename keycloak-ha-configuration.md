@@ -94,5 +94,15 @@ ctr+w and then type the following text to search without the external quote "<dr
 ```xml
 <driver name="h2" module="com.h2database.h2"> 
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class> 
- </driver>
+</driver>
+```
+Then add the following mysql driver to make it look like the following 
+
+```xml
+<driver name="mysql" module="com.mysql"> 
+        <driver-class>com.mysql.jdbc.Driver</driver-class> 
+</driver> 
+<driver name="h2" module="com.h2database.h2"> 
+         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class> 
+</driver>
 ```
