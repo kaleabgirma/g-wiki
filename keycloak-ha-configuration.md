@@ -64,3 +64,18 @@ Now create new file called **module.xml** and paste the following code in it
 ```batchfile
 nano module.xml 
 ```
+
+
+
+```xml
+<?xml version="1.0" ?> 
+<module xmlns="urn:jboss:module:1.3" name="com.mysql"> 
+ <resources> 
+  <resource-root path="mysql-connector-java-8.0.16.jar" /> 
+ </resources> 
+ <dependencies> 
+  <module name="javax.api"/> 
+  <module name="javax.transaction.api"/> 
+ </dependencies> 
+</module> 
+```
