@@ -227,4 +227,3 @@ tail -f /data/keycloak-6.0.1/standalone/log/server.log
 You should see something similar to the following screenshot on your server log while it is starting.
 
 =	This is the end of the documentation
-=
