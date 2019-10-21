@@ -2,3 +2,5 @@
 <!-- SUBTITLE: This is POC Gebeya KB website -->
 
 # Welcome to Gebeya KB!
+> Importnat Links
+{.is-info}
