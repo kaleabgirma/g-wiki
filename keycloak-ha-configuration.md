@@ -106,3 +106,40 @@ Then add the following mysql driver to make it look like the following
          <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class> 
 </driver>
 ```
+Now is the time to add the database connection data source 
+In the same file find for the string  
+**<datasource jndi-name="java:jboss/datasources/KeycloakDS"**  
+Which looks like
+
+```xml
+<datasource jndi-name="java:jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true" use-java-context="true" statistics-enabled="${wildf$ 
+    <connection-url>jdbc:h2:${jboss.server.data.dir}/keycloak;AUTO_SERVER=TRUE</connection-url> 
+                    <driver>h2</driver> 
+                    <security> 
+                        <user-name>sa</user-name> 
+                        <password>sa</password> 
+                    </security> 
+                </datasource> 
+```
+
+Replace the entire string with the following one
+
+```xml
+<datasource jndi-name="java:/jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true"> 
+        <connection-url>jdbc:mysql://10.96.16.225:3306/keycloak?useSSL=false&amp;characterEncoding=UTF-8</connection-url> 
+          <driver>mysql</driver> 
+          <pool> 
+              <min-pool-size>5</min-pool-size> 
+              <max-pool-size>15</max-pool-size> 
+          </pool> 
+          <security> 
+              <user-name>keycloak</user-name> 
+              <password>password</password> 
+          </security> 
+          <validation> 
+              <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker"/> 
+              <validate-on-match>true</validate-on-match> 
+              <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"/> 
+          </validation> 
+</datasource> 
+```
