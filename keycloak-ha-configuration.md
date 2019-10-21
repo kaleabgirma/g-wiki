@@ -205,3 +205,27 @@ Then run the following command in the terminal from the **/data/keycloak-6.0.1/b
 ```
 
 If you have any errors please try to fix it until you get *command executed successfully* message 
+
+## Step-5 Running keycloak in two servers
+- Before running the project copy the source directory to the second server in your preferred directory
+- Install java JDK 8 in the second server 
+
+Now you are ready to run the project use the following command to run it 
+From */data/keycloak-6.0.1/bin* directory 
+
+```sh
+nohup ./standalone.sh --server-config=standalone-ha.xml & 
+```
+
+To follow the log type the following command 
+
+
+```sh
+tail -f /data/keycloak-6.0.1/standalone/log/server.log 
+```
+
+You should see something similar to the following screenshot on your server log while it is starting.
+
+===================================================================///===================================================
+																																					This is the end of the documentation
+=========================================================================================================================
