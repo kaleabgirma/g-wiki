@@ -55,3 +55,12 @@ mkdir com
 mkdir com/mysql 
 mkdir com/mysql/main 
 ```
+
+Then put the downloaded mysql connector.jar file in the following directory 
+*/data/keycloak-6.0.1/modules/com/mysql/main and it looks like 
+/data/keycloak-6.0.1/modules/com/mysql/main/mysql-connector-java-8.0.16.jar *
+Now create new file called **module.xml** and paste the following code in it 
+
+```batchfile
+nano module.xml 
+```
