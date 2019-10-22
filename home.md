@@ -1,3 +1,11 @@
+---
+title: Welcome
+description: Welcome to Gebeya KB this is a POC installation
+published: true
+date: 2019-10-22T13:39:57.261Z
+tags: 
+---
+
 <!-- TITLE: Welcome to Gebeya KB -->
 <!-- SUBTITLE: This is POC Gebeya KB website -->
 
