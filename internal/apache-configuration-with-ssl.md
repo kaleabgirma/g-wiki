@@ -2,7 +2,7 @@
 <!-- SUBTITLE: This document contains apache(httpd) configuration for SSL specially for Jhipster microservice -->
 
 ## Configuration
-The source code is located under a dirctory /etc/httpd/conf.d/configname.conf
+The source code is located under a dirctory **/etc/httpd/conf.d/configname.conf**
 
 ```yaml
 RewriteEngine on
