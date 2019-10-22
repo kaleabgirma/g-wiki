@@ -2,7 +2,7 @@
 title: Docker Garbage Collection
 description: This documentation  will guide you through how to collect garbage and clear log from your docker container
 published: true
-date: 2019-10-22T15:39:36.887Z
+date: 2019-10-22T16:12:31.101Z
 tags: 
 ---
 
@@ -28,7 +28,7 @@ First create the following file in your **/usr/local/bin** directory by executin
 ``` sh
 nano /usr/local/bin/docker-clear-log
 ```
-Then paste the following code in the file, save and close **ctrl+x** then **y**
+Then paste the following code in the file, save and close <kbd>ctrl</kbd>+<kbd>x</kbd> then <kbd>y</kbd>
 
 ``` bash
 #!/bin/bash -e
