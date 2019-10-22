@@ -12,3 +12,8 @@
 > Training Sites
 {.is-info}
 - [Keycloak Deployment and HA Configuration](/keycloak-ha-configuration)
+
+> Intranet Sites
+{.is-warning}
+Note: It requires Login
+- [Internal](/internal)
