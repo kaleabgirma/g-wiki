@@ -2,7 +2,7 @@
 title: Keycloak HA Configuration
 description: 
 published: true
-date: 2019-10-22T13:45:45.491Z
+date: 2019-10-22T13:47:35.227Z
 tags: 
 ---
 
@@ -234,4 +234,4 @@ tail -f /data/keycloak-6.0.1/standalone/log/server.log
 
 You should see something similar to the following screenshot on your server log while it is starting.
  
- ![Keycloak Starting](/uploads/images/keycloak-starting.png "Keycloak Starting")
+  ![keycloak-starting.png](/images/keycloak-starting.png)
