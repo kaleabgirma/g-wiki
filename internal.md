@@ -2,7 +2,7 @@
 title: Apache Configuration with SSL
 description: This documentation is presenting the configuration for apache(httpd) with ssl certificate configuration
 published: true
-date: 2019-10-22T16:08:53.331Z
+date: 2019-10-22T16:10:56.961Z
 tags: 
 ---
 
@@ -13,7 +13,7 @@ tags:
 {.is-info}
 
 
-> [Docker Container Garbage Cleaning](/internal/docker-container-garbage-cleaning)
+> [Docker Container Garbage Cleaning](/internal/docker-garbage-collection)
 {.is-info}
 
 
