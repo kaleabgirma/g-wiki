@@ -15,5 +15,6 @@
 
 > Intranet Sites
 {.is-warning}
+
 Note: It requires Login
 - [Internal](/internal)
