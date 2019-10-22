@@ -1,5 +1,5 @@
 <!-- TITLE: Guest -->
-<!-- SUBTITLE: A quick summary of Guest -->
+<!-- SUBTITLE: Contents on this page is confidential and can't be exposed to the public -->
 
-# Guests Home Page
+# Internal Page
 - [How to configure Nginx](/internal/how-to-configure-nginx)
